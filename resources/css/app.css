@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    background-color: #1a202c;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Stick No Bills', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2.6rem;
+    margin: 0px;
+}
+
+h1 {
+    margin-top: 10vh;
+    font-size: 1.8rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #EE6352;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+main {
+    margin: 40px 80px;
+    position: relative;
+    z-index: 0;
+}
+
+.linkNav {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    font-weight: lighter;
+    font-size: 1.7rem;
+    border: solid 1px transparent;
+}
+
+.linkNav:hover {
+    border: solid 1px #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.48);
+}
+
+.linkNav:active {
+    background-color: #FFFFFF;
+    color: #1a202c;
+}
+
+.LogNav {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10vh;
+    right: 3vh;
+    margin: 20px 10px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    background-color: #2a344673;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.48);
+}
+
+.LogNavInfo {
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #2a344673;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.48);
+}
+
+.menuLine {
+    border-right: solid 2px #FFFFFF;
+    margin-right: 20px;
+}
+
+.navUserMenu {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.navUserName {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.navFormLogoutPosition {
+    padding: 8px;
+}
+
+.iconsSvgLogout {
+    width: 3vh;
+    margin-right: 5px;
+    fill: #FFFFFF;
+}
+
+.btnLogout {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+}
+
+.iconsSvgLogout:hover,
+.btnLogout:hover {
+    fill: #1a202c;
+    color: #1a202c;
+}
+
+/* Auth */
+
+.authFormPosition {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+}
+
+.bgAuthForm {
+    background-color: #2a344673;
+    padding: 5vh;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.48);
+}
+
+.authSessionInfo {
+    color: #EE6352;
+}
+
+.authLabel {
+    font-size: 1.6rem;
+}
+
+.authInput {
+    background-color: #1a202c;
+    padding: 1vh;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+.authInput:active,
+.authInput:hover {
+    border: solid 1px #EE6352;
+    background-color: #333e5273;
+}
+
+.authInputCheck {
+    margin: 15px 0px 20px 0px;
+}
+
+.authInputCheckTxt {
+    font-size: 1.3rem;
+}
+
+.authAForgotPassword {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #EE6352;
+}
+
+.authAForgotPassword:hover {
+    border-bottom: solid 1px #EE6352;
+}
+
+.authBtn {
+    margin-top: 3vh;
+    background-color: transparent;
+    color: #EE6352;
+    font-size: 1.5rem;
+    border: solid 1px #EE6352;
+    padding: 8px 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.authBtn:hover {
+    background-color: #EE6352;
+    color: #FFFFFF;
+}
+
+.authForgotTxtInfo {
+    text-align: center;
+    width: 70vh;
+    font-size: 1.6rem;
+    margin-bottom: 8%;
+}
+
+.authForgotEmail {
+    text-align: center;
+}
+
+/* Article */
+
+.showFoodSec {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.foodArticle {
+    width: 25%;
+    margin: 20px;
+    border-radius: 8px;
+    border: solid 1px transparent;
+}
+
+.card {
+    background-color: #333e5273;
+    border-radius: 8px;
+    margin: 20px;
+    padding-bottom: 5px;
+}
+
+.sizeImg {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.imgHome {
+    border-radius: 8px;
+    width: 100%;
+    height: 50vh;
+}
+
+.foodInfoHome {
+    margin: 5vh;
+}
+
+.btnPositionHomeArt {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh
+}
+
+.btnReserve {
+    background-color: transparent;
+    border: none;
+}
+
+.btnDelete {
+    background-color: transparent;
+    border: none;
+}
+
+.testAdd {
+    width: 3vh;
+    position: sticky;
+    background-color: #71798873;
+    border-radius: 50%;
+    bottom: 3vh;
+    left: 100%;
+    margin-right: -30px;
+}
+
+/* Profil */
+
+.mainProfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerList {
+    width: 28%;
+    height: auto;
+    background-color: #333e5273;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.48);
+}
+
+.containerList>h3 {
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 3px #FFFFFF;
+}
+
+.ContainerListDon {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.listDonnationItem {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    border-bottom: solid 2px #EE6352;
+}
+
+.containerCenter {
+    width: 59%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerCenter>h2 {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    border-bottom: solid 3px #FFFFFF;
+    margin: 0px 40px;
+}
+
+.containerInfoProfil {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.containerInfoProfil>h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.formEditProfil {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    background-color: #333e5273;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.editSecProfil{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.editSecProfil > form > label{
+    width: 100%;
+    font-size: 1.4rem;
+}
+.editSecProfil > form > input{
+    width: 100%;
+    background-color: #1a202c;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.btnUpdateProfil{
+    border: solid 3px #EE6352;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin-top: 25px;
+}
+.btnUpdateProfil:hover{
+    background-color: #EE6352;
+}
+.btnUpdateProfil:active{
+    color: #1a202c;
+}
+
+.ShowInfoProfil{
+    width: 30%;
+    padding: 20px 40px;
+}
+.showPositionInfoProfil{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 15%;
+}
+.showPositionInfoProfil>p{
+    width: 100%;
+}
+
+.deleteUserContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1a202c;
+    border-radius: 8px;
+    margin-top: 8%;
+    padding: 5% 0%;
+    justify-content: center;
+}
+.deleteUserContainer>form>p{
+    font-size: 1.5rem;
+}
+.btnDeleteCompt{
+    background-color: transparent;
+    border: solid 3px #e63946;
+    border-radius: 8px;
+    color: #e63946;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 8px 22%;
+}
+.btnDeleteCompt:hover{
+    background-color: #e63946;
+    color: #FFFFFF;
+}
+.btnDeleteCompt:active{
+    color: #1a202c;
+}
+
+
+.foodArticleReserved {
+    width: 25%;
+    margin: 20px;
+    border-radius: 8px;
+    border: solid 1px transparent;
+}
+
+.cardProfil {
+    background-color: #333e5273;
+    border-radius: 8px;
+    margin: 20px;
+    padding-bottom: 5px;
+}
+
+.btnTakeOut {
+    color: #EE6352;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background: transparent;
+    border: solid 4px #EE6352;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.btnTakeOut:hover {
+    border: solid 4px #FFFFFF;
+}
+
+.btnTakeOut:active {
+    color: #FFFFFF;
+    background-color: #EE6352;
+}
+
+
+.containerModalDel {
+    position: absolute;
+    z-index: 1;
+    background-color: #252E3D;
+    border: solid 1px #EE6352;
+    border-radius: 8px;
+    width: 520px;
+    height: 250px;
+    top: 10%;
+    left: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.displayON {
+    display: flex;
+}
+
+.displayOFF {
+    display: none;
+}
+
+.containerModalDel>h4 {
+    font-size: 1.8rem;
+    width: 100%;
+    height: 20%;
+    margin: 0px;
+}
+
+.containerModalBtn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ModalDelBtn {
+    background-color: transparent;
+    border: solid 3px #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 0px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.ModalDelBtn:hover {
+    background-color: #FFFFFF;
+    color: #252E3D;
+}
+
+.ModalCancelBtn {
+    background-color: transparent;
+    border: solid 3px #EE6352;
+    border-radius: 8px;
+    color: #EE6352;
+    padding: 0px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.ModalCancelBtn:hover {
+    background-color: #EE6352;
+    color: #FFFFFF;
+}
+
+/* Add food */
+
+.mainDonnation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerFormDon {
+    padding: 50px;
+    background-color: #333e5273;
+    border-radius: 8px;
+}
+
+.containerInputDon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.containerInputDon>label {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.descriptionDon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.descriptionDon>label {
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.descriptionDon>textarea {
+    background-color: #1a202c;
+    resize: none;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.descriptionDon>textarea:hover {
+    border: solid 1px #EE6352;
+    background-color: #71798873;
+}
+
+.hiddenEl {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .containerList {
+        width: 100%;
+    }
+
+    .containerCenter {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .foodArticle {
+        width: 40%;
+        margin: 10px;
+    }
+    .formEditProfil {
+        width: 100%;
+    }
+    .editSecProfil{
+        width: 95%;
+    }
+    .ShowInfoProfil{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    main{
+        margin: 20px 10px;
+    }
+    .foodArticle {
+        width: 100%;
+        margin: 10px;
+    }
+}
